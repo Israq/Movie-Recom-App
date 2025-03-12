@@ -12,6 +12,7 @@ const App = () => {
           <img src="./hero.png" alt="Hero Banner" />
           <h1>
             Find <span className="text-gradient">Movies</span> you'll enjoy
+            without the Hassle
           </h1>
         </header>
         <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
